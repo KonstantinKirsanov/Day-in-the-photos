@@ -1,53 +1,64 @@
 .sprites {
-  background: url(img/sprite768.png) no-repeat;
   height: 104px;
   width: 160px;
   margin-bottom: 5px;
 }
 .sprites-1img {
-  background-position: 0 0px;
+  background: url(img/2.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-2img {
-  background-position-y: -104px;
+  background: url(img/3.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-3img {
-  background-position-y: -208px;
+  background: url(img/4.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-4img {
-  background-position-y: -312px;
+  background: url(img/5.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-5img {
-  background-position: 0 -416px;
+  background: url(img/6.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-6img {
-  background-position-y: -520px;
+  background: url(img/7.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-7img {
-  background-position-y: -624px;
+  background: url(img/8.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-8img {
-  background-position-y: -728px;
+  background: url(img/9.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-9img {
-  background-position: 0 -832px;
+  background: url(img/10.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-10img {
-  background-position-y: -936px;
+  background: url(img/11.jpg) no-repeat;
+  background-size: cover;
 }
 .sprites-11img {
-  background-position-y: -1040px;
+  background: url(img/12.jpg) no-repeat;
+  background-size: cover;
 }
 .lable-image {
   float: right;
-  background: url(img/sprite-tall-768.png) no-repeat;
   height: 220px;
   width: 160px;
 }
 .lable-image-1img {
-  background-position: 0 0px;
+  background: url(img/adidas.jpg) no-repeat;
+  background-size: cover;
 }
 .lable-image-2img {
-  background-position-y: -220px;
+  background: url(img/cola.jpg) no-repeat;
+  background-size: cover;
 }
 body {
   margin: 0px;
@@ -143,6 +154,13 @@ a {
   body {
     padding-right: 34px;
     padding-left: 34px;
+    max-width: 768px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
   }
   .root {
     max-width: 768px;
@@ -321,7 +339,6 @@ a {
     display: none;
   }
   .sprites {
-    background: url(img/sprite480.png) no-repeat;
     width: 16.666666vw;
     height: 11.041666vw;
     margin-right: 2.083333vw;
@@ -329,39 +346,6 @@ a {
   }
   .sprites:last-child {
     margin-right: 0px;
-  }
-  .sprites-1img {
-    background-position: 0 0px;
-  }
-  .sprites-2img {
-    background-position-y: -53px;
-  }
-  .sprites-3img {
-    background-position-y: -106px;
-  }
-  .sprites-4img {
-    background-position-y: -159px;
-  }
-  .sprites-5img {
-    background-position: 0 -212px;
-  }
-  .sprites-6img {
-    background-position-y: -265px;
-  }
-  .sprites-7img {
-    background-position-y: -318px;
-  }
-  .sprites-8img {
-    background-position-y: -371px;
-  }
-  .sprites-9img {
-    background-position: 0 -424px;
-  }
-  .sprites-10img {
-    background-position-y: -477px;
-  }
-  .sprites-11img {
-    background-position-y: -530px;
   }
   .lable-image {
     background: url(img/2.jpg) 50% 50% no-repeat;
@@ -427,25 +411,12 @@ a {
     font-size: 5.2vw;
   }
   .sprites {
-    background: url(img/sprite320.png) no-repeat;
     width: 22.8125vw;
     height: 48px;
     margin-right: 1.875vw;
   }
   .sprites:last-child {
     margin-right: 0px;
-  }
-  .sprites-1img {
-    background-position: 0 0px;
-  }
-  .sprites-2img {
-    background-position-y: -48px;
-  }
-  .sprites-3img {
-    background-position-y: -96px;
-  }
-  .sprites-4img {
-    background-position-y: -144px;
   }
   .img-date {
     height: 48px;
